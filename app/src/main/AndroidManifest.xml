@@ -23,6 +23,7 @@
         </activity>
 
         <service android:name=".SimpleService" />
+        <service android:name=".BoundService" />
     </application>
 
 </manifest>
