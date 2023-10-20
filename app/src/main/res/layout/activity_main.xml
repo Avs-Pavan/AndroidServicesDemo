@@ -41,6 +41,16 @@
         android:text="Bound service"
         android:textStyle="bold" />
 
+    <TextView
+        android:id="@+id/randomTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:text="Click on start bound service to start"
+        android:textColor="#2196F3"
+        android:textSize="20dp"
+        android:textStyle="bold" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/start_bound_btn"
@@ -62,16 +72,16 @@
         android:textColor="#fff"
         android:visibility="visible" />
 
-    <TextView
-        android:id="@+id/randomTxt"
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/unbindBtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
-        android:gravity="center"
-        android:text="Bound service"
-        android:textColor="#2196F3"
-        android:textSize="20dp"
-        android:textStyle="bold" />
+        android:background="#E91E63"
+        android:text="Unbind service"
+        android:textColor="#fff"
+        android:visibility="visible" />
 
 
 </androidx.appcompat.widget.LinearLayoutCompat>
